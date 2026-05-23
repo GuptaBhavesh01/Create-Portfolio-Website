@@ -30,7 +30,7 @@ export function Navigation({ activeSection }: NavigationProps) {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
-              BG Portfolio
+              Portfolio
             </span>
           </div>
 

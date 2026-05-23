@@ -12,16 +12,11 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a passionate full-stack developer with a keen interest in creating immersive 
-              web experiences using modern technologies. With expertise in React, Next.js, and 
-              Three.js, I bring ideas to life through code.
+              My journey in software development started over two years ago, and since then, I’ve been continuously learning, building, and exploring modern technologies across full-stack web and mobile development. I enjoy combining problem-solving, creativity, and technical expertise to develop scalable, efficient, and user-centric applications that deliver real-world impact and seamless user experiences.
             </p>
-            
+
             <p className="text-lg text-muted-foreground leading-relaxed">
-              My journey in web development started 2 years ago, and since then, I've been 
-              constantly learning and adapting to new technologies. I love combining creativity 
-              with technical skills to build applications that not only work flawlessly but 
-              also provide an exceptional user experience.
+              I’m also deeply interested in Generative AI, AI-powered applications, and intelligent automation, and I enjoy integrating modern AI capabilities into practical software solutions.
             </p>
 
             <div className="space-y-4">
@@ -29,7 +24,7 @@ export function AboutSection() {
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  Full Stack Web Development
+                  Full Stack Web & App Development
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
@@ -39,20 +34,28 @@ export function AboutSection() {
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
                   UI/UX Design & Implementation
                 </li>
-                
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                  Graphic Design
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                  AI Automation & Integration
+                </li>
+
               </ul>
             </div>
 
-            
-              <a
-                  href="public/resume.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ><button className="flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors">
-          
+
+            <a
+              href="public/BhaveshGupta_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            ><button className="flex items-center gap-2 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors">
+
                 <Download size={20} />
-              Download Resume
-            </button></a>
+                Download Resume
+              </button></a>
           </div>
 
           <div className="h-[600px]">

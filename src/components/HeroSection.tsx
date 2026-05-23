@@ -114,7 +114,7 @@ export function HeroSection() {
           Bhavesh Gupta
         </h1>
         <p className="text-xl md:text-3xl text-muted-foreground mb-8">
-          Full Stack Developer & 3D Enthusiast
+          Full Stack Web & App Developer
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <button

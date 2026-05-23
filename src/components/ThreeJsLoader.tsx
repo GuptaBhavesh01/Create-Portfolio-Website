@@ -39,7 +39,7 @@ export function ThreeJsLoader() {
       ctx.fillStyle = '#60a5fa';
       ctx.fillText('const dev = () => {', -75, -45);
       ctx.fillStyle = '#22d3ee';
-      ctx.fillText('  build BG Portfolio();', -75, -25);
+      ctx.fillText('  build BhaveshGupta_Portfolio();', -75, -25);
       ctx.fillStyle = '#60a5fa';
       ctx.fillText('}', -75, -5);
 
